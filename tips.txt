@@ -1,0 +1,4 @@
+# jsDelivr+github链接
+https://cdn.jsdelivr.net/gh/[GithubUserName]/[AssetsRepo]/img/index.png
+# jsDelivr+npm链接
+https://cdn.jsdelivr.net/npm/[NpmPackageName]/img/index.png
