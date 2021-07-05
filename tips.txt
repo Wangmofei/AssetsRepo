@@ -2,3 +2,7 @@
 https://cdn.jsdelivr.net/gh/[GithubUserName]/[AssetsRepo]/img/index.png
 # jsDelivr+npm链接
 https://cdn.jsdelivr.net/npm/[NpmPackageName]/img/index.png
+
+每次更新npm图床都需要先修改[AssetsRepo]\package.json里的version,也就是版本号。
+而npm version patch即为更新package.json里的版本号的指令，效果是末尾版本号+1，例如0.0.1=>0.0.2、1.1.3=>1.1.4。免去了打开package.json再修改版本号的麻烦。（大版本更新还是需要手动改的）
+更新npm图床务必要记得更新package.json里的版本号！
